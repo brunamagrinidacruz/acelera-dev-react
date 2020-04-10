@@ -137,6 +137,17 @@ header {
 	margin-bottom: 30px;
 }
 
+.nav a{ 
+	text-decoration: none;
+	color:#e4bb23;
+}
+
+.nav a:hover{ 
+	text-decoration: none;
+	color:#e4bb23;
+	border-bottom:3px solid #e4bb23; 
+}
+
 .nav ul {
 	list-style: none;
 	display: flex;
