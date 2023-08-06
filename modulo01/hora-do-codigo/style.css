@@ -1,0 +1,137 @@
+body {
+    background-color: #f6f6f6;
+    margin: 0; /* O navegador coloca CSS por padrão. Aqui estamos retirando a margem */
+    font-family: "Roboto", "sans-serif";
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+}
+
+.navbar-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.navbar-menu li {
+    margin: 0px 5px;
+
+}
+
+.navbar-menu li:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.navbar-menu i:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.navbar-menu i {
+    margin-left: 5px;
+
+}
+
+.header {
+    background-image: url(https://www.ufmg.br/espacodoconhecimento/wp-content/uploads/2019/08/thiago-gomes-TO8xOu0FapA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div {
+    background-color: white;
+    padding: 20px 40px;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    margin: 30px;
+}
+
+.card-header img {
+    width: 100%;
+}
+
+.card-body {
+    background-color: white;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+.card-body-content h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.card-body-content h2 {
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight:100px;
+    color: grey;
+}
+
+.card-body-content p {
+    font-size: 12px;
+}
+
+.card-body-footer {
+    display: flex;
+    justify-content: space-between; 
+    font-size: 12px;
+    color: grey;
+}
+
+.card-body-footer a {
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+.footer-social {
+    display: flex;
+    margin-left: 10px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.footer-social i {
+    margin-left: 10px;
+    margin-right: 10px;
+}

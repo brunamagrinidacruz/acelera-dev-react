@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>BEM CSS Exemplo</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!--
+            O BEM é uma padronização dos nomes das classes do CSS
+            de forma que fique intuitivo o que elas representam.
+            Seu formato é: bloco__elemento e para modificadores temos
+            bloco__elemento--modificador
+        -->
+        <section class="card">
+            <div class="card__header">
+            </div>
+            <div class="card__content">
+                <ul class="card__list">
+                    <li class="card__item card__item--selected">Adobe XD</li>
+                    <li class="card__item">Figma</li>
+                    <li class="card__item">Sketch</li>
+                </ul>
+                <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consectetur ex cum, veritatis hic dolor minima sit eos nobis. Beatae odio tempora error rem eos.
+                </p>
+                <button class="card__button">Visit the link</button>
+            </div>
+        </section>
+
+    </body>
+</html>

@@ -1,0 +1,10 @@
+
+> instadev@0.1.0 submit /home/magrini/codenation/react-15
+> react-scripts test src/__tests__/submit.test.js --reporters=default --reporters=jest-junit "--watchAll=false"
+
+  console.error node_modules/prop-types/checkPropTypes.js:20
+    Warning: Failed prop type: The prop `to` is marked as required in `Link`, but its value is `undefined`.
+        in Link (at Topbar.jsx:12)
+        in Topbar (at submit.test.js:91)
+        in Router (at submit.test.js:90)
+

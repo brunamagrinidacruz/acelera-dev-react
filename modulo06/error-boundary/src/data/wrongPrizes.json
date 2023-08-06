@@ -1,0 +1,33 @@
+{
+  "prizes": [
+    {
+      "year": "2019",
+      "category": "chemistry",
+      "laureates": [
+        {
+          "id": "976",
+          "firstname": "John",
+          "surname": "Goodenough",
+          "motivation": "\"for the development of lithium-ion batteries\"",
+          "share": "3"
+        },
+        {
+          "id": "977",
+          "firstname": {
+            "name": {}
+          },
+          "surname": "Whittingham",
+          "motivation": "\"for the development of lithium-ion batteries\"",
+          "share": "3"
+        },
+        {
+          "id": "978",
+          "firstname": "Akira",
+          "surname": "Yoshino",
+          "motivation": "\"for the development of lithium-ion batteries\"",
+          "share": "3"
+        }
+      ]
+    }
+  ]
+}

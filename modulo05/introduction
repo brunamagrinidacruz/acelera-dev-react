@@ -1,0 +1,43 @@
+                        Frameworks vs Bibliotecas
+
+A principal diferença é a inversão de controle. Com bibliotecas, o programador contra o que acontece,
+agora quando se trata de framework, o framework decidi o que acontece.
+
+Biblioteca é basicamente uma coleção de funções ou classes para reuso de código.
+Framework controla o fluxo da aplicação, escrevemos a aplicação para rodar nele, não
+ela é escrita para ser rodada no nosso projeto como Biblioteca. 
+
+                             Seu código
+                        /                 \   
+         Você chama   /                    \  Framework chama sua aplicação  
+                    /                       \
+                Biblioteca <----contem---- Framework
+
+
+                                React
+
+    O React é uma biblioteca que funciona somente na interface do usuário, se pensarmos em MVC, ele é V (View).  
+    O React é a biblioteca para criar interface e os componentes. Além dele, utilizamos outras bibliotecas: ReactDOM
+que é uma biblioteca para manipularmos o DOM.
+
+    O navegador cria um DOM para ser manipulado e o React cria outra DOM, o Virtual DOM (temos dois DOM's). 
+O Virtual DOM se sincroniza com o DOM do navegador e com isso, a atualização da página fica a cargo do React.
+Na pratica, temos duas arvores de DOM. Quando um componente é atualizado na Virtual DOM, o React atualiza
+apenas aquele componente na DOM do navegador.
+    O React funciona como SPA (Single Page Application, aplicação que carrega apenas uma única página HTML, então ao invés de
+ter várias páginas, há apenas uma e é devolvido o novo HTML dela). Qualquer interação é realizada
+via Javascript e este atualiza o conteúdo, com isto a página não é recarregada, apenas um ponto é atualizado.
+    Com o React podemos descrever nossas interfaces como funções, modo declarativo e ele utiliza somente Javascript.
+
+
+            Componentes e Props
+    Componentes permitem dividur a UI em partes independentes, reutilizáveis e isoladas, como funções Javascript.
+Elas podem receber parametros que chamamos no React de props. Exemplo de componentes: Buttons, Card e Text.
+Os componentes realizam uma funcionalidade, fácil de reutilizar e tendem a ser pequenos. Eles são funlçoes na programação
+que retornam um JSX (HTML)
+Relembrando:
+- Atomic Design: é a filosofia de criar a interface a partir de átomos. 
+    Utilizamos o Atomic Design para criarmos o design system. Ou seja, usamos
+a ideia do Atomic Design com React. Componentes átomos que serão reutilizados.
+
+        

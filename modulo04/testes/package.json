@@ -1,0 +1,15 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Projeto de Calculadora",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Bruna Magrini",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.5.4",
+    "prompt-sync": "^4.2.0"
+  }
+}

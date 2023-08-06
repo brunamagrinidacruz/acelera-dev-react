@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1589389878848" clover="3.2.0">
+  <project timestamp="1589389878848" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="11" elements="32" coveredelements="32" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+    <file name="filter.js" path="/home/magrini/documents/courses/acelera-dev-react/modulo04/hora-do-codigo/filter.js">
+      <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="11"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="60" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="9" count="60" type="stmt"/>
+      <line num="14" count="177" type="stmt"/>
+      <line num="15" count="177" type="stmt"/>
+      <line num="19" count="176" type="stmt"/>
+      <line num="23" count="21" type="stmt"/>
+      <line num="24" count="21" type="stmt"/>
+      <line num="25" count="21" type="stmt"/>
+      <line num="26" count="174" type="cond" truecount="2" falsecount="0"/>
+      <line num="27" count="138" type="stmt"/>
+      <line num="31" count="138" type="stmt"/>
+      <line num="34" count="36" type="stmt"/>
+      <line num="36" count="21" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="20" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,0 +1,10 @@
+.app {
+    width: 100vw;
+}
+
+.section-card {
+    width: 100vw;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}

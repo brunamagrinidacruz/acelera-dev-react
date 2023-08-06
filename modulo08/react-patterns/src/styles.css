@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.App-buttons {
+  display: flex;
+  justify-content: space-around;
+}

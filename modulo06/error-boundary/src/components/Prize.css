@@ -1,0 +1,24 @@
+.laureates {
+  display: flex;
+}
+
+.laureate {
+  border: 1px solid;
+  margin: 5px;
+}
+
+.laureate-name {
+  border: 1px solid;
+  margin: 5px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.laureate-motivation {
+  border: 1px solid;
+  margin: 5px;
+  font-size: 12px;
+}

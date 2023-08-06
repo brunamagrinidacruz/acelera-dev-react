@@ -1,0 +1,14 @@
+{
+  "name": "hora-do-codigo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --watchAll"
+  },
+  "author": "Bruna Magrini",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.0.1"
+  }
+}

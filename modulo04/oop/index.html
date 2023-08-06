@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title> OPP </title>
+        <meta charset="utf-8"/>
+        <script src="./classes.js"></script>
+    </head>
+    <body>
+        <script>
+            let person = new Person("Bruna", "Magrini", "F", ["programming", "Loueny"]);    
+            console.log(person.greeting());
+
+            let teacher = new Teacher("Edineia", "Souza", "F", ["being rich", "her sun"], "asp.net");
+            console.log(teacher.greeting());
+
+            let student1 = new Student("Carol", "Magrini", "F", []);
+            let student2 = new Student("Sheila", "Magrini", "F", []);
+            console.log(student1.name.first);
+            console.log(student2.name.first);
+
+    </script>
+    </body>
+</html>
