@@ -2,8 +2,8 @@
 
 Projects and exercises of Acelera Dev React course, offered by Codenation.
 
-- Módulo 1: Browser Engine, Motores e Debugging
-- Módulo 2: HTML5 e CSS3, Atomic Design e CSS Modular
+- Módulo 1: Browser Engine, Motores e Debugging (https://brunamagrinidacruz.github.io/acelera-dev-react/)
+- Módulo 2: HTML5 e CSS3, Atomic Design e CSS Modular (https://brunamagrinidacruz.github.io/acelera-dev-react/)
 - Módulo 3: Javascript I, Fundamentos da Linguagem
 - Módulo 4: Javascript II, Paradigmas e Testes
 - Módulo 5: React I, Fundamentos e React OO
